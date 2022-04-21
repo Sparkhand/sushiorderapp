@@ -5,16 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ordina al Sushi</title>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
     <style>
+        body {
+            font-family: 'Abel';font-size: 22px;
+            padding: 0.5rem;
+            background-color: #D7D7D7;
+        }
         section {
             display: flex;
             flex-direction: column;
         }
         .input .ta {
+            margin-top: 30px;
             flex: 1;
         }
         .bt {
             min-height: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
         }
         .hidden {
             display: none;
@@ -22,21 +31,28 @@
 
         .list {
             list-style-type: none;
+            margin: 0;
+            margin-top: 30px;
+            padding: 0;
         }
 
         .list li {
-            font-size: 2.5rem;
+            font-size: 2rem;
+        }
+
+        .tag {
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
     <section class="input">
-        <button class="bt" onclick="switchmode()">Conferma</button>
+        <button class="bt" onclick="switchmode()">🍣 Conferma 🍣</button>
         <textarea class="ta" rows="10" cols="7"></textarea>
     </section>
 
     <section class="output hidden">
-        <button class="bt" onclick="switchmode()">Reset</button>
+        <button class="bt" onclick="switchmode()">🍣 Reset 🍣</button>
         <ul class="list">
 
         </ul>
