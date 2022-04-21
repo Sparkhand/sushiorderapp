@@ -50,7 +50,7 @@ function createMap() {
 function createList() {
     outputMap.forEach((value, key) => {
         let li = document.createElement('li');
-        li.innerHTML = '▶️ <span class="tag">Pezzo:</span> ' + key + '&emsp;<span class="tag">Qta:</span> ' + value +'<hr style="width: 100%; margin-left:0;">';
+        li.innerHTML = '▶️ <span class="tag">ID:</span> ' + key + '&emsp;<span class="tag">QTY:</span> ' + value +'<hr style="width: 100%; margin-left:0;">';
         outputList.appendChild(li);
     });
 }
