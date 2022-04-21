@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordina al Sushi</title>
+    <style>
+        section {
+            display: flex;
+            flex-direction: column;
+        }
+        .input .ta {
+            flex: 1;
+        }
+        .bt {
+            min-height: 50px;
+        }
+        .hidden {
+            display: none;
+        }
+
+        .list {
+            list-style-type: none;
+        }
+
+        .list li {
+            font-size: 2.5rem;
+        }
+    </style>
+</head>
+<body>
+    <section class="input">
+        <button class="bt" onclick="switchmode()">Conferma</button>
+        <textarea class="ta" rows="10" cols="7"></textarea>
+    </section>
+
+    <section class="output hidden">
+        <button class="bt" onclick="switchmode()">Reset</button>
+        <ul class="list">
+
+        </ul>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
