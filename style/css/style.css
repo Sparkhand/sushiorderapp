@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Rubik:wght@300;400;500;700&display=swap");
+body {
+  padding: 0.5rem;
+  background-color: #1D1D2C;
+  color: #1D1D2C;
+  font-family: "Lato", sans-serif;
+  line-height: 1.4;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input .ta {
+  margin-top: 30px;
+  flex: 1;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  font-weight: 500;
+  border: none;
+  background-color: #3CBCC3;
+}
+.input .ta:focus {
+  border: none;
+  outline: none;
+}
+
+p {
+  color: #F7F4E9;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.bt {
+  font-family: "Rubik", sans-serif;
+  min-height: 50px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  background-color: #EBA63F;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  color: #F7F4E9;
+}
+
+.list li {
+  font-size: 2rem;
+}
+
+.tag {
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #E40C2B;
+}
+
+/*# sourceMappingURL=style.css.map */
